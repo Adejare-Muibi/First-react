@@ -1,0 +1,117 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 120px;
+}
+.super{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.all-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
+.cps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    
+}
+.img-plain, .img-sneak{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+.img-create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.create , .plain p, .sneak p{
+    width:25vw;
+    text-align: center;
+    line-height: 26px;
+}
+.create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.plain, .sneak{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.img3{
+    display: flex;
+    gap: 90px;
+}
+.clip-butt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.clipb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.clipb p{
+    width: 45vw;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .cps{
+        flex-direction: column;
+    }
+    .img3{
+        flex-direction: column;
+        gap: 70px;
+    }
+    .super h1{
+        text-align: center;
+    }
+    .super p{
+        width: 60vw;
+        text-align: center;
+    }
+    .create , .plain p, .sneak p{
+        width: 77vw;
+    }
+    .main{
+        gap: 100px;
+    }
+    .all-img{
+        gap: 130px;
+    }
+    .clipb h1{
+        width: 85vw;
+        text-align: center;
+    }
+    .clipb p{
+        width: 63vw;
+    }
+
+    
+}
+

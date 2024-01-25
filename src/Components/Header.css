@@ -1,0 +1,53 @@
+
+.head-main{
+    padding: 10% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.history p{
+    width: 70%;
+    text-align: center;
+    line-height: 25px;
+}
+.butt{
+    display: flex;
+    gap: 12px;
+}
+button{
+    padding: 15px 36px;
+    border-radius: 25px;
+    border: none;
+}
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    cursor: pointer;
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 950px) {
+    .history h1{
+        width: 80vw;
+        text-align: center;
+    }
+    .butt{
+        flex-direction: column;
+    }
+
+    
+    
+}

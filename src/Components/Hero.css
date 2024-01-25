@@ -1,0 +1,117 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    gap: 75px;
+}
+.keep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.img{
+    position: relative;
+    right: 30px;   
+}
+img{
+    width: 92%;
+}
+.qei{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.quick, .icloud, .comp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.keep p{
+    width: 47%;
+    text-align: center;
+    line-height: 27px;
+}
+.img-quick{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.quick p{
+    width: 54%;
+    line-height: 25px;
+}
+.icloud p{
+    width: 52%;
+    line-height: 25px;
+}
+.comp p{
+    width: 55%;
+    line-height: 25px;
+}
+.acc-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+}
+.acc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+.acc p{
+    width: 75%;
+    text-align: center;
+    line-height: 25px;
+}
+.img2{
+    padding-left: 60px;
+}
+.img2 img{
+    height: 70vh;
+}
+
+
+
+@media screen and (max-width: 950px){
+    .img-quick{
+        flex-direction: column;
+    }
+    .hero{
+        margin-bottom: 130px;
+    }
+    .img{
+        position: relative;
+        right: 0px; 
+        width: 70%;  
+    }
+    .keep h1{
+        text-align: center;
+        width: 70vw;
+    }
+    .keep p{
+        width: 72vw;
+    }
+    .quick, .icloud, .comp{
+        align-items: center;
+    }
+    .quick p, .icloud p, .comp p{
+        text-align: center;
+        width: 70vw;
+    }
+    .acc h1{
+        text-align: center;
+        width: 70vw;
+    }
+    .img2 img{
+        height: 35vh;
+        width: 76vw;
+    }
+    .img2{
+        padding-left: 0px;
+    }
+}

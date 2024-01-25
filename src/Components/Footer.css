@@ -1,0 +1,65 @@
+.img-faq{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(210, 25%, 92%);
+    margin-top: 160px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.img-faq2{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+}
+.fpi{
+    display: flex;
+    gap: 75px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+}
+.images img{
+    height: 3vh;
+}
+.log2 img{
+    width: 40%;
+}
+.faq, .pri, .ins{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+@media screen and (max-width: 950px) {
+    .img-faq{
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 60px;
+        padding-bottom: 33px;
+    }
+    .log2{
+        padding-left: 20%;
+    }
+    .fpi{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .img-faq2{
+        flex-direction: column;
+        gap: 42px;
+    }
+    .faq, .pri{
+        text-align: center;
+        gap: 20px;
+    }
+    .images{
+        gap: 30px;
+    }
+    
+}
