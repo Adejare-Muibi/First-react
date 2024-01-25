@@ -6,6 +6,9 @@
     flex-direction: column;
     align-items: center;
     gap: 45px;
+    background-image: url(../Components/images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .history{
     display: flex;
@@ -46,6 +49,10 @@ button{
     }
     .butt{
         flex-direction: column;
+    }
+    .head-main{
+        background-image: url(../Components/images/bg-header-mobile.png);
+        background-repeat: no-repeat;
     }
 
     

@@ -6,8 +6,8 @@ import image11 from '../Components/images/icon-instagram.svg'
 import image12 from '../Components/images/icon-twitter.svg'
 function Footer(){
     return(
-        <div className='img-faq'>
-            <div className='log2' ><img src={image9} alt="" /></div>
+        <div className='img-faq'>    
+            <img className='imaa' src={image9} alt="" />
             <div className='img-faq2'>
                 <div className='fpi'>
                     <div className='faq'>

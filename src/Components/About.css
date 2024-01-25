@@ -90,6 +90,7 @@
     }
     .super h1{
         text-align: center;
+        width: 90vw;
     }
     .super p{
         width: 60vw;
